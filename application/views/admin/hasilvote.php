@@ -19,7 +19,7 @@ foreach ($jmlvote as $votedata) {
 						<div class="box">
 							<div class="box-inner">
 								<div class="box-content">
-									<img width="100%" height="240" src="<?php echo base_url(); ?>asset/img/<?php echo $datavote['photo']; ?>" />
+									<img width="100%" src="<?php echo base_url(); ?>asset/img/<?php echo $datavote['photo']; ?>" />
 									<div class="box-header well bg-info">
 										<center>
 											<?php echo $datavote['nama']; ?>

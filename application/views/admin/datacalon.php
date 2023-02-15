@@ -35,7 +35,7 @@
 					);
 					echo form_input($form_attribute);
 					?>
-					<label class="label-control"> Nomor Pasangan Calon</label>
+					<label class="label-control"> Nomor Calon</label>
 					<?php
 					$form_attribute	= array(
 						'type'		=> 'text',
@@ -44,7 +44,7 @@
 					);
 					echo form_input($form_attribute);
 					?>
-					<label class="label-control"> Nama Pasangan Calon</label>
+					<label class="label-control"> Nama Calon</label>
 					<?php
 					$form_attribute	= array(
 						'type'		=> 'text',
@@ -93,7 +93,7 @@
 							<tr>
 								<th class="text-center">No</th>
 								<th class="text-center">Nama Calon</th>
-								<th class="text-center">Visi Misi</th>
+								<!-- <th class="text-center">Visi Misi</th> -->
 								<th class="text-center">Photo Calon</th>
 								<th class="text-center" width="150">Aksi</th>
 							</tr>
@@ -106,8 +106,6 @@
 								<tr>
 									<td class="text-center"><?php echo $loaddata['no']; ?></td>
 									<td><?php echo $loaddata['nama']; ?></td>
-									<td><?php echo $loaddata['visimisi']; ?></td>
-									<td class="text-center"><img width="50" src="<?php echo base_url(); ?>/asset/img/<?php echo $loaddata['photo']; ?>"></td>
 									<td>
 										<a class="btn btn-xs btn-info" href="<?php echo base_url(); ?>admin/editcalon/<?php echo $loaddata['nisn']; ?>">
 											<i class="glyphicon glyphicon-edit icon-white"></i> Edit

@@ -9,7 +9,7 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="<?php echo base_url('/user'); ?>">
-        <span><b>ITCLUB-PEMILOS</b></span>
+        <span><b>ITCLUB-PEMILTOS</b></span>
       </a>
 
       <!-- user dropdown starts -->

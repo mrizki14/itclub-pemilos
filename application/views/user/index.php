@@ -43,10 +43,13 @@
 										);
 										echo form_input($form_attribute);
 										?>
-										<button class="btn btn-success" style="width: 100%;"><b>(klik/pilih) - PASANGAN NO <?php echo $loaddata['no']; ?></b></button>
+										
+										<button class="btn btn-success" style="width: 100%;"><b>(klik/pilih) - KANDIDAT NO <?php echo $loaddata['no']; ?></b></button>
 										<?php
 										echo form_close();
 										?>
+
+										<td><?php echo $loaddata['visimisi']; ?></td>
 									</div>
 								</div>
 							</div>

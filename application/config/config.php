@@ -28,7 +28,7 @@ $config['base_url'] = ((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == "on") ?
 $config['base_url'] .= "://" . $_SERVER['HTTP_HOST'];
 $config['base_url'] .= str_replace(basename($_SERVER['SCRIPT_NAME']), "", $_SERVER['SCRIPT_NAME']);
 
-$config['nama_aplikasi'] = "ITCLUB-PEMILOS";       //isi sesuai kebutuhan nama pada header
+$config['nama_aplikasi'] = "ITCLUB-PEMILTOS";       //isi sesuai kebutuhan nama pada header
 $config['tahun_kegiatan'] = "2023";       //isi sesuai kebutuhan nama pada header
 
 /*
